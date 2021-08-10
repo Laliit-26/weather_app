@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background:url(sea.jpg) no-repeat center center fixed  ;
+    background-size: cover;
+}
+.search{
+    display: flex;
+justify-content: center;
+flex-direction: column;
+
+    
+   
+}
+#btn{
+padding:5px 10px;
+width:100px;
+margin: auto;
+border-radius: 10px;
+background-color: rgba(2, 27, 73, 0.712);
+color: rgb(255, 255, 255);
+border: 0px;
+font-size: 1rem;
+
+}
+input{
+    margin: 2rem auto;
+    size:1rem;
+    border:0px;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 1rem;
+    padding:.5rem 1rem;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:70%;
+    height: 80vh;
+    margin: auto;
+    background-color: transparent;
+    margin-top:5rem;
+
+}
+.up{
+    
+    align-items: center;
+    padding:1rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.down{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.down-left{
+    background-color: blue;
+
+}
+.down-right{
+    background-color: brown;
+}
+.list{
+    list-style: none;
+    
+}
+.up-left{
+    justify-items: start;
+}
+.list .temp{
+    font-size: 3rem;
+    
+}
